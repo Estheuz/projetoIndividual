@@ -1,0 +1,57 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  display: flex;
+  justify-content: center;
+  font-family: 'Open Sans', sans-serif;
+  background-color: #e7e2ded0;
+}
+
+header{
+  text-align: center;
+  padding: 16px;
+}
+.container{
+  padding: 20px;
+  border: 1px solid #61432D;
+  border-radius: 30px;
+  background-color: #e6c8b1bb;
+}
+
+.blocoTipo {
+  padding: 12px;
+  border: 2px solid #61432D;
+  border-radius: 15px;
+  height: 30px;
+  width: 90px;
+  margin: 0 auto;
+  background-color: #662C00;
+  color: #E09C67;
+  position: relative;
+
+}
+.tipo {
+  position: absolute;
+  margin: 0, auto;
+}
+
+
+h3{
+  display: inline;
+}
+
+.poema {
+  padding: 6px;
+}
+
+.btnPedido{
+  margin-left: 340px;
+  width: 100px;
+  height: 40px;
+  font-size: 15px;
+}
+
+

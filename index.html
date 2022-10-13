@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cardápio</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    <link rel="icon" href="data:,">
+</head> 
+<!--Fazer um script funcional pro evento do botão--> <!--Funções que calculem o valor dos pedidos e imprimam na tela o valor total informando ao cliente-->
+<!--melhorar fontes e cores-->
+<!--Rever código e buscar concluir/ótimizar daqui um tempo-->
+<body> 
+
+    <div class="container">
+        <header>
+            <h1>Literra Café</h1>
+            <p><i>as vezes a paz é um bom café e um bom poema</i></p>
+        </header>
+
+         <div class="blocoTipo">
+            <h2 class="tipo">Comidas</h2>
+         </div>
+        <dl>
+            <dt> 
+            <label><input type="checkbox" name="pedido" id="pudim" value="pudim"><h3>Pudim 5,00$</h3></label>
+                <dd class="poema">Fofinho como um pedaço do céu <br>
+                    Uma calda como se nunca viu <br>
+                    Um toquezinho de baunilha e mel <br>
+                    Prove já o nosso pudim nota mil      
+                </dd>
+            </dt>
+        </dl>
+     <br>
+        <dl>
+            <dt> 
+            <label><input type="checkbox" name="pedido" id="bolinho" value="bolinho"><h3>Bolinho   8,00$</h3></label>
+                <dd class="poema">Com um granulado de chocolate <br>
+                    Caprichadissímo do recheio á massa <br>
+                    Uma sobremesa com várias partes <br>
+                    Coma dois e qualquer problema passa    
+                </dd>
+            </dt>
+        </dl>
+     <br> <br>
+     
+
+      <div class="blocoTipo">
+        <h2 class="tipo">Bebidas</h2>
+      </div>
+        <dl>
+            <dt> <label><input type="checkbox" name="pedido" id="cafe" value="cafe"><h3>Café 4,00$</h3></label>
+                <dd class="poema">Perfeito para começar o dia <br>
+                    Sempre bom acompanhado... ou puro <br>
+                    Muito gostoso e te dá energia <br>
+                    Tome um e estará pronto para tudo 
+                </dd>
+            </dt>
+        </dl>
+      <br>
+     
+        <dl>
+            <dt><label><input type="checkbox" name="pedido" id="chocolateQuente" value="chocolateQuente"><h3>Chocolate Quente 6,00$</h3></label>
+                <dd class="poema">O melhor num tempo frio <br>
+                    Ele aquece o coração <br>
+                    Ouvi um cliente que ouviu <br>
+                    Que esse é pura perfeição
+                     
+                </dd>
+            </dt>
+        </dl>
+        <h3 id="areaResultado"></h3>
+        <button class="btnPedido" id="btnPedido" onclick="calcularPedido ()">Pedir</button>
+     </div>
+    
+     
+    
+</body>
+</html>
